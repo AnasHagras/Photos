@@ -1,0 +1,131 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+*{
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: white;
+}
+
+.inputTag{
+  display: none;
+}
+
+.Label{
+  /* border: 1px solid green; */
+  padding: 10px;
+  font-size: 10px;
+  font-weight: bold;
+  border-radius:20px;
+  text-align: center;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: fit-content;
+  width: 100px;
+}
+
+#imageName{
+  font-weight: initial;
+  color: green;
+  margin-top: 10px;
+}
+
+#Button{
+  font-size: 10px;
+  padding: 1px 15px;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 10px;
+  margin-top: 7px;
+}
+
+.App{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.Container{ 
+  display: flex;
+  width: fit-content;
+  flex-direction: column;
+  margin: 10px auto;
+  color: rgb(7, 128, 79);
+  box-shadow: 7px 6px 7px #0000007a;
+  padding: 1px;
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+  margin: 10px auto;
+}
+
+.increase{
+  width: fit-content;
+  margin:10px auto;
+  padding: 3px 5px;
+  border-radius: 20px;
+  color: black;
+  border: 1px solid rgb(7, 128, 79);
+}
+
+.Image{
+  max-width: 100px;
+  max-height: 100px;
+  min-width: 100px;
+  min-height: 100px;
+  border-radius:10px;
+  /* border: 1px solid saddlebrown; */
+}
+
+.photoContainer{
+  display: flex;
+  flex-direction:column;
+  flex-wrap: wrap;
+}
+
+.innerImage{
+  position: relative;
+  margin-bottom: 10px;
+}
+
+.deletePhoto{
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  top: 0;
+  left: 0;
+  background-color: #333333a1;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  border-radius:10px;
+}
+
+.delButton{
+  width: fit-content;
+  height: fit-content;
+  color: white;
+  background-color: transparent;
+  border: none ;
+  line-height: 13px;
+}
